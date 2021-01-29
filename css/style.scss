@@ -1,0 +1,55 @@
+$white: #FFFFFF;
+$blue: #505F98;
+$dark-blue: #222F65;
+$black: #091133;
+$grey: #5D6970;
+$btn-blue: #111B47;
+$purple-text: #6F7CB2;
+$darpurple: #37447E;
+$footerbg: #E7ECFF;
+$footer-line: #CDD1D4;
+$footer-text: #939EA4;
+$footelink-text: #929ECC;
+
+@import "header.scss";
+@import "block-1";
+@import "block-2";
+@import "block-3";
+@import "block-4";
+@import "offer";
+@import "footer";
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.btn {
+  width: 189px;
+  height: 36px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media (max-width:1160px) {
+  .container {
+    padding: 0 15px;
+  }
+}
+
+
+@media (max-width:760px) {
+  .container {
+    padding: 0 20px;
+  }
+}
