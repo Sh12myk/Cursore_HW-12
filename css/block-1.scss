@@ -1,0 +1,146 @@
+.block1 {
+  .container {
+    background: url(../additional_files/img/undraw_mobile_login_ikmv.svg) no-repeat 100% 60%;
+  }
+
+  &__top {
+    padding: 10rem 0 5rem 0;
+
+    &-title {
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 48px;
+      color: $black;
+    }
+
+    &-text {
+      max-width: 33.75rem;
+      padding-top: 1rem;
+      font-size: 16px;
+      line-height: 26px;
+      color: $purple-text;
+    }
+  }
+
+  &__bottom {
+    display: flex;
+    max-width: 33.75rem;
+
+    &-block {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      max-width: 15.94rem;
+      padding-bottom: 10rem;
+
+      &-img {
+        width: 2.25rem;
+        height: 2.25rem;
+      }
+
+      &-title {
+        padding: 0.875rem 0 0.375rem 0;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        color: $black;
+      }
+
+      &-text {
+        font-size: 12px;
+        line-height: 18px;
+        color: $grey;
+      }
+
+    }
+  }
+
+}
+
+
+@media (max-width:1000px) {
+  .block1 {
+    .container {
+      background: linear-gradient(90deg, rgba(255,255,255,0.09007352941176472) 0%, rgba(255,255,255,0.4449754901960784) 74%), url(../additional_files/img/undraw_mobile_login_ikmv.svg) no-repeat 100% 60%;
+    }
+
+    &__top {
+      padding: 4rem 0 5rem 0;
+    }
+  }
+}
+
+
+@media (max-width:900px) {
+  .block1 {
+    .container {
+      background: linear-gradient(90deg, rgba(255,255,255,0.09007352941176472) 0%, rgba(255,255,255,0.7549754901960784) 24%), url(../additional_files/img/undraw_mobile_login_ikmv.svg) no-repeat 100% 60%;
+    }
+  }
+}
+
+
+@media (max-width:600px) {
+  .block1 {
+    .container {
+      background: linear-gradient(90deg, rgba(255,255,255,0.09007352941176472) 0%, rgba(255,255,255,0.8549754901960784) 15%), url(../additional_files/img/undraw_mobile_login_ikmv.svg) no-repeat 100% 60%;
+    }
+
+    &__top {
+      padding: 2rem 0 5rem 0;
+
+      &-title {
+        font-size: 32px;
+      }
+
+      &-text {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+
+
+@media (max-width:560px) {
+  .block1 {
+    .container {
+      background: linear-gradient(90deg, rgba(255,255,255,0.09007352941176472) 0%, rgba(255,255,255,0.8849754901960784) 0%), url(../additional_files/img/undraw_mobile_login_ikmv.svg) no-repeat 100% 60%;
+    }
+
+    &__bottom {
+
+      &-block {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        max-width: 14rem;
+        padding: 0 1.2rem 10rem 0;
+      }
+
+      &-block:last-child {
+        padding: 0 0 10rem 0;
+      }
+    }
+  }
+}
+
+
+@media (max-width:450px) {
+  .block1 {
+    .container {
+      background: linear-gradient(90deg, rgba(255,255,255,0.09007352941176472) 0%, rgba(255,255,255,0.8849754901960784) 0%), url(../additional_files/img/undraw_mobile_login_ikmv.svg) no-repeat 100% 60%;
+    }
+    &__top {
+      padding: 0 0 5rem 0;
+
+      &-title {
+        font-size: 22px;
+      }
+
+      &-text {
+        font-size: 13px;
+      }
+    }
+  }
+}
