@@ -1,0 +1,172 @@
+.offer{
+
+  background: url(../additional_files/img/Rectangle.svg) no-repeat;
+  background-size: cover;
+
+  .offer__topblock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15rem 0 2.25rem 0;
+
+    &-title {
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 48px;
+      text-align: center;
+      color: $black;
+      padding-bottom: 1rem;
+    }
+
+    &-text {
+      font-size: 16px;
+      line-height: 26px;
+      text-align: center;
+      color: $purple-text;
+      max-width: 37.5rem;
+    }
+  }
+
+  .offer__middleblock {
+    padding-bottom: 3.75rem;
+
+    &-title {
+      font-weight: 500;
+      font-size: 50px;
+      line-height: 66px;
+      text-align: center;
+      letter-spacing: 1px;
+      color: $dark-blue;
+    }
+
+    &-text {
+      font-size: 16px;
+      line-height: 26px;
+      text-align: center;
+      color: $darpurple;
+    }
+  }
+
+  .offer__bottomblock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 11.88rem;
+
+    &-text {
+      font-size: 14px;
+      line-height: 24px;
+      text-align: center;
+      color: $grey;
+      padding-bottom: 0.5rem;
+    }
+
+    &-button {
+      background: $btn-blue;
+      color: $white;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 24px;
+
+      &:hover {
+        transform: scale(1.05);
+        transition: 1.5s;
+        transition-delay: .1s;
+        background-color: $white;
+        color: $black;
+        border: 1px solid $black;
+        box-sizing: border-box;
+      }
+    }
+  }
+}
+
+@media (max-width:700px) {
+
+  .offer {
+    .offer__topblock {
+      padding: 7em 0 1rem 0;
+    }
+    .offer__bottomblock {
+      padding-bottom: 8rem;
+    }
+  }
+}
+
+@media (max-width:600px) {
+
+  .pricing {
+    .offer__topblock {
+
+      &-title {
+        font-size: 32px;
+      }
+
+      &-text {
+        font-size: 14px;
+        max-width: 30rem;
+      }
+    }
+
+    .offer__middleblock {
+      padding-bottom: 3rem;
+
+      &-title {
+        font-size: 40px;
+      }
+
+      &-text {
+        font-size: 14px;
+      }
+    }
+
+    .offer__bottomblock {
+      padding-bottom: 10rem;
+
+      &-text {
+        font-size: 12px;
+      }
+
+      &-button {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+@media (max-width:450px) {
+
+  .offer {
+    .offer__topblock {
+      padding: 5em 0 1rem 0;
+      &-title {
+        font-size: 22px;
+      }
+
+      &-text {
+        font-size: 13px;
+        max-width: 32rem;
+      }
+    }
+
+    .offer__middleblock {
+      padding-bottom: 2rem;
+
+      &-title {
+        font-size: 32px;
+      }
+
+      &-text {
+        font-size: 13px;
+      }
+    }
+
+    .offer__bottomblock {
+      padding-bottom: 5rem;
+
+      &-text {
+        font-size: 11px;
+      }
+    }
+  }
+}
