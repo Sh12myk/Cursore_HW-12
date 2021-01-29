@@ -1,3 +1,23 @@
+*{
+  list-style-type: none;
+}
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
 .header {
   background: url(../additional_files/img/designer_1.svg) no-repeat 120% 100%;
 }
@@ -17,8 +37,11 @@
   line-height: 24px;
 }
 .header__navigation-links a:hover {
-  transition: 0.3s;
-  color: #222F65;
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0) scale(1.1);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  perspective: 1000px;
   font-weight: 700;
 }
 .header__navigation-links:not(:first-child) {
@@ -38,12 +61,11 @@
   line-height: 18px;
 }
 .header__button a:hover {
-  transform: scale(1.05);
-  transition: 1.5s;
-  transition-delay: 0.1s;
-  background-color: #FFFFFF;
-  color: #091133;
-  border: 1px solid #091133;
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0) scale(1.1);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  perspective: 1000px;
   box-sizing: border-box;
 }
 .header__content {
@@ -74,12 +96,11 @@
   font-weight: 500;
 }
 .header__content-buttonleft:hover {
-  transform: scale(1.05);
-  transition: 1.5s;
-  transition-delay: 0.1s;
-  background-color: #FFFFFF;
-  color: #091133;
-  border: 1px solid #091133;
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0) scale(1.1);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  perspective: 1000px;
   box-sizing: border-box;
 }
 .header__content-buttonright {
@@ -90,11 +111,11 @@
   margin-left: 1.875rem;
 }
 .header__content-buttonright:hover {
-  transform: scale(1.05);
-  transition: 1.5s;
-  transition-delay: 0.1s;
-  background-color: #111B47;
-  color: #FFFFFF;
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0) scale(1.1);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  perspective: 1000px;
   box-sizing: border-box;
 }
 
@@ -515,12 +536,11 @@
   text-decoration: none;
 }
 .block4__content-button:hover {
-  transform: scale(1.05);
-  transition: 1.5s;
-  transition-delay: 0.1s;
-  background-color: #FFFFFF;
-  color: #091133;
-  border: 1px solid #091133;
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0) scale(1.1);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  perspective: 1000px;
   box-sizing: border-box;
 }
 
@@ -659,12 +679,11 @@
   line-height: 24px;
 }
 .offer .offer__bottomblock-button:hover {
-  transform: scale(1.05);
-  transition: 1.5s;
-  transition-delay: 0.1s;
-  background-color: #FFFFFF;
-  color: #091133;
-  border: 1px solid #091133;
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0) scale(1.1);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  perspective: 1000px;
   box-sizing: border-box;
 }
 
@@ -769,12 +788,11 @@
   text-decoration: none;
 }
 .footer__top-block-button:hover {
-  transform: scale(1.05);
-  transition: 1.5s;
-  transition-delay: 0.1s;
-  background-color: #FFFFFF;
-  color: #091133;
-  border: 1px solid #091133;
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0) scale(1.1);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  perspective: 1000px;
   box-sizing: border-box;
 }
 .footer__line {
@@ -803,8 +821,11 @@
   color: #929ECC;
 }
 .footer__bottom-nav-links a:hover {
-  transition: 0.3s;
-  color: #222F65;
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0) scale(1.1);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  perspective: 1000px;
   font-weight: 700;
 }
 .footer__bottom-social-link {
@@ -816,8 +837,11 @@
   margin-left: 0;
 }
 .footer__bottom-social-icon:hover {
-  transform: scale(1.5);
-  transition: 0.5s;
+  animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0) scale(1.1);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  perspective: 1000px;
   transition-delay: 0.1s;
 }
 
