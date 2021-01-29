@@ -1,0 +1,144 @@
+.block3 {
+
+  .container {
+    background: url(../additional_files/img/undraw_social_influencer_sgsv.svg) no-repeat 0 50%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    max-width: 27.81rem;
+    padding: 10.63rem 0 10rem 0;
+
+    &-title {
+      font-weight: 500;
+      font-size: 36px;
+      line-height: 48px;
+      color: $black;
+      padding-bottom: 1rem;
+    }
+
+    &-text {
+      font-size: 16px;
+      line-height: 26px;
+      color: $grey;
+    }
+  }
+}
+
+@media (max-width:960px) {
+
+  .block3 {
+
+    .container {
+      background: linear-gradient(90deg, rgba(255,255,255,0.08727240896358546) 0%, rgba(255,255,255,0.87102591036414565) 35%), url(../additional_files/img/undraw_social_influencer_sgsv.svg) no-repeat 0 50%;
+    }
+  }
+}
+
+@media (max-width:760px) {
+
+  .block3 {
+
+    .container {
+      background: linear-gradient(90deg, rgba(255,255,255,0.08727240896358546) 0%, rgba(255,255,255,0.87102591036414565) 35%), url(../additional_files/img/undraw_social_influencer_sgsv.svg) no-repeat 0 50%;
+    }
+
+    &__content {
+      padding: 8rem 0 8rem 0;
+    }
+  }
+}
+
+@media (max-width:700px) {
+  .block3 {
+
+    .container {
+      background: linear-gradient(90deg, rgba(255,255,255,0.08727240896358546) 0%, rgba(255,255,255,0.87102591036414565) 0%), url(../additional_files/img/undraw_social_influencer_sgsv.svg) no-repeat 50% 45%;
+      justify-content: center;
+    }
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      max-width: 27rem;
+      padding: 8rem 0 8rem 0;
+    }
+  }
+}
+
+@media (max-width:600px) {
+  .block3 {
+
+    .container {
+      background: linear-gradient(90deg, rgba(255,255,255,0.08727240896358546) 0%, rgba(255,255,255,0.90102591036414565) 0%), url(../additional_files/img/undraw_social_influencer_sgsv.svg) no-repeat 50% 45%;
+      justify-content: center;
+    }
+
+    &__content {
+
+      &-title {
+        font-size: 32px;
+        text-align: center;
+      }
+
+      &-text {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@media (max-width:550px) {
+  .block3 {
+
+    .container {
+      background: linear-gradient(90deg, rgba(255,255,255,0.08727240896358546) 0%, rgba(255,255,255,0.90102591036414565) 0%), url(../additional_files/img/undraw_social_influencer_sgsv.svg) no-repeat 100% 45%;
+      background-size: contain;
+    }
+
+    &__content {
+      padding: 6rem 0 6rem 0;
+    }
+  }
+}
+
+@media (max-width:520px) {
+  .block3 {
+
+    .container {
+      background: linear-gradient(90deg, rgba(255,255,255,0.08727240896358546) 0%, rgba(255,255,255,0.90102591036414565) 0%), url(../additional_files/img/undraw_social_influencer_sgsv.svg) no-repeat 100% 45%;
+    }
+  }
+}
+
+@media (max-width:500px) {
+  .block3 {
+
+    .container {
+      background: linear-gradient(90deg, rgba(255,255,255,0.08727240896358546) 0%, rgba(255,255,255,0.90102591036414565) 0%), url(../additional_files/img/undraw_social_influencer_sgsv.svg) no-repeat 150% 40%;
+    }
+  }
+}
+
+@media (max-width:450px) {
+  .block3 {
+
+    .container {
+      background: #e7ecff77;
+    }
+    &__content {
+      padding: 5rem 0 5rem 0;
+
+      &-title {
+        font-size: 22px;
+      }
+
+      &-text {
+        font-size: 13px;
+      }
+    }
+  }
+}
