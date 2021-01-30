@@ -9,6 +9,7 @@
     &-item {
       display: flex;
       text-decoration: none;
+      margin-top: auto;
     }
 
     &-links {
@@ -31,6 +32,9 @@
       &:not(:first-child) {
         margin-left: 3.75rem;
       }
+    }
+    &__logo{
+      margin-top: -7px;
     }
   }
 
