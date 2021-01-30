@@ -49,7 +49,7 @@
 .header__navigation-links:not(:first-child) {
   margin-left: 3.75rem;
 }
-.header__navigation__logo {
+.header__logo {
   margin-top: -7px;
 }
 .header__button-item {
