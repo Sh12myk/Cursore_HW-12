@@ -146,12 +146,17 @@
   }
   .header__navigation {
     padding-top: 2rem;
-    padding-left: 0;
+
   }
   .header__navigation-links:not(:first-child) {
     margin-left: 1.3rem;
   }
+  .header__navigation-item{
+    padding-left: 0;
+  }
+
 }
+
 @media (max-width: 600px) {
   .header__logo {
     order: -1;
